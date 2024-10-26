@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Sleek Sidebar Calendar & Notes",
+  "version": "1.0",
+  "description": "A Chrome extension that adds a sleek sidebar panel with a calendar and daily notes functionality.",
+  "permissions": ["storage", "scripting"],
+  "action": {
+    "default_icon": "icons/icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  }
+}
